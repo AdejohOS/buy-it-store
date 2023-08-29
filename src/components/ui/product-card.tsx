@@ -65,7 +65,7 @@ const ProductCard = ({data}: ProductCard) => {
         </div>
 
         <div>
-            <p className="font-semibold text-lg">
+            <p className="font-semibold text-md">
                 {data.name}
             </p>
             <p className="text-sm text-gray-500">

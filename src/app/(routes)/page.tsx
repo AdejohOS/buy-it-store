@@ -4,12 +4,12 @@ import getProducts from '@/actions/get-products'
 import Billboard from '@/components/billboard'
 import ProductList from '@/components/product-list'
 import Container from '@/components/ui/container'
-
+ 
 export const revalidate = 0
   
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true});
-  const billboard = await getBillboard('cll9cpfr3000qutk0z5qjt9gr')
+  const billboard = await getBillboard('cllw1qeo00004utqswexmxjf7')
 
   return (
     <Container>
